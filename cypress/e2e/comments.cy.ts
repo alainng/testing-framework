@@ -13,7 +13,7 @@ describe('practicalTest', () => {
       
     })
 
-    xit('added comments are visible', () => {
+    it('added comments are visible', () => {
       const random = '1' + Math.random().toString().substring(2,9)
       
       //Create userA
