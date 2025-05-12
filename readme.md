@@ -21,5 +21,25 @@ To run headess, open a terminal, navigate to the cypress repository and run the 
 * Change the baseUrl in ```cypress.config.ts``` to what your desired target Url
 * The usernames, passwords and emails are currently randomized every run in ```e2e``` folder but can be improved upon to use external data files
 
+
+## Test cases chosen for assessment
+1. Sign-up & Login
+• Register a new user
+• Log in successfully
+• Attempt login with a wrong password → expect HTTP 401 / error message
+2. Write Article
+• Logged-in user creates an article (title, body, tags)
+• Article appears in “My Articles” list
+3. Follow Feed
+• User A follows User B
+• User B publishes a new article
+• Article shows up in User A’s Your Feed
+5. Comments
+• Add a comment → it displays
+• Delete the comment → it disappears
+6. Favourite Toggle
+• Logged-in user favourites / unfavourites an article
+• Favourite counter updates accordingly
+
 ## Notes
 No AI was used to create this framework
